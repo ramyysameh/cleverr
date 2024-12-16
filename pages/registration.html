@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Clever Kids</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../images/Clever kids logo.png" alt="Clever Kids Logo">
+        </a>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="math.html">Math</a>
+            <a href="science.html">Science</a>
+            <a href="resources.html">Resources</a>
+            <a href="games.html">Games</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#">Login</a>
+            <a href="registration.html">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <a href="../index.html">Home</a> &gt; <span>Registration</span>
+    </nav>
+
+    <!-- Registration Form -->
+    <section class="content">
+        <h1>Register</h1>
+        <p>Create an account to explore more fun and educational content!</p>
+        <!-- Form redirects to thank.html -->
+        <form action="thank.html" method="GET">
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required><br><br>
+
+            <label for="confirmPassword">Confirm Password:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" required><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Clever Kids. All Rights Reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="mailto:ramy.sameh2@gmail.com">Send email</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="../pages/about.html">About Us</a>
+    </footer>
+</body>
+</html>
